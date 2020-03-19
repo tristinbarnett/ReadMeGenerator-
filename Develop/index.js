@@ -62,10 +62,11 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then((data) =>{
-            console.log(data);
-            let gitRes = api.getUser(data.username);
+            api.getUser(data.username).then(function(gitRes){
             let newData = Object.assign(data, gitRes);
+            console.log(newData);
             writeToFile("README.md", newData)
+            });
         });
 };
 init();
