@@ -51,6 +51,16 @@ const questions = [
         type: "input",
         name: "testing",
         message: "How do you test your project?"
+    },
+    {
+        type: "input",
+        name: "badgeimg",
+        message: "What is the image for your badge?"
+    },
+    {
+        type: "input",
+        name: "badgelink",
+        message: "What is the link for your badge?"
     }
 ];
 
@@ -61,11 +71,11 @@ function writeToFile(fileName, data) {
 
 function init() {
     inquirer.prompt(questions)
-        .then((data) =>{
-            api.getUser(data.username).then(function(gitRes){
-            let newData = Object.assign(data, gitRes);
-            console.log(newData);
-            writeToFile("README.md", newData)
+        .then((data) => {
+            api.getUser(data.username).then(function (gitRes) {
+                let newData = Object.assign(data, gitRes);
+                console.log(newData);
+                writeToFile("README.md", newData)
             });
         });
 };

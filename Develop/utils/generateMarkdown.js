@@ -1,6 +1,8 @@
 
 function generateMarkdown(data) {
   return `
+  [![Badge](${data.badgeimg})](${data.badgelink})
+
 # ${data.title}
 
 ${data.description}
