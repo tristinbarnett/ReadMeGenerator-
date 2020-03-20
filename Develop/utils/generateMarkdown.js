@@ -23,11 +23,11 @@ ${data.testing}
 ${data.contributing}
 
 ## Author
-${data.username} 
+**${data.username}**
 
 <img src="${data.avatar}" width="200" height="200" />
 
-Contact Email: ${data.email}
+**Contact Email:** ${data.email}
 
 ## License
 ${data.license}
