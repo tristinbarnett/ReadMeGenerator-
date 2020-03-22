@@ -1,24 +1,24 @@
 
-  [![Badge](sdf)](sdf)
+  [![Badge](https://img.shields.io/badge/Dogs-Party-orange)](https://img.shields.io/badge/Dogs-Party-orange)
 
-# sdf
+# Dog Party
 
-sdf
+An application that allows users to throw a dog party!
 
 ## Table of Contents
-sdf
+1. PARTY
 
 ## Installing
-sdf
+clone onto computer and blow up 10-15 balloons
 
 ## Usage
-sdf
+run the party application!
 
 ## Running the tests
-sdf
+Do you hear a bark? Success!
 
 ## Contributing
-sdf
+grab a fork and dive in!
 
 ## Author
 **tristinbarnett**
@@ -28,5 +28,5 @@ sdf
 **Contact Email:** tristinbarnett@gmail.com
 
 ## License
-sdf
+Dogs Party Inc
 
